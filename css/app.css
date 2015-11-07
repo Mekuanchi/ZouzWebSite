@@ -17,7 +17,7 @@ section.header img{
 }
 section.header .slogan{
     font-size:2.4em;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Quicksand', sans-serif;
     line-height:100%;
     margin-top:1.3em;
     margin-bottom:1em;
@@ -59,11 +59,13 @@ section.COACHING{
 }
 
 section.COACHING{background-color:#fff;text-align:center}
-section.COACHING h2{font-family: 'Quicksand', sans-serif;}
-section.COACHING h3{font-family: 'Quicksand', sans-serif;}
+section.COACHING h2{font-family: 'Quicksand', sans-serif;
+    color:#eb212e;}
+section.COACHING h3{font-family: 'Quicksand', sans-serif;
+color:#eb212e;}
 section.COACHING p{font-family: 'Quicksand', sans-serif;;margin-bottom:2em}
 section.COACHING .description{margin:0 auto;width:100%}
-section.COACHING .description h3{color:#2a2a2a;font-size:2.2em}
+section.COACHING .description h3{color:#eb212e;font-size:2.2em}
 section.COACHING .description p{line-height:190%}
 .COACHING img{width:200px}
 
@@ -74,11 +76,11 @@ section.MASSAGE
 }
 
 section.MASSAGE{background-color:#fff;text-align:center}
-section.MASSAGE h2{font-family:"Dosis",sans-serif}
-section.MASSAGE h3{font-family:"Dosis",sans-serif}
-section.MASSAGE p{font-family:"Dosis",sans-serif;margin-bottom:2em}
+section.MASSAGE h2{font-family:'Quicksand',sans-serif;}
+section.MASSAGE h3{font-family:'Quicksand',sans-serif}
+section.MASSAGE p{font-family:'Quicksand',sans-serif;margin-bottom:2em}
 section.MASSAGE .description{margin:0 auto;width:100%}
-section.MASSAGE .description h3{color:#2a2a2a;font-size:2.2em}
+section.MASSAGE .description h3{color:#eb212e;;font-size:2.2em}
 section.MASSAGE .description p{line-height:190%}
 .MASSAGE img{width:200px}
 .iconeSport{
@@ -88,7 +90,12 @@ section.MASSAGE .description p{line-height:190%}
 
 
 .partners-logo .item{
-    margin-left:4.4em;
-    display:block}
-.partners-logo .item img{width:200px}
+   margin:2em;
+    display:block;
+    text-align: center}
+
+.partners-logo .item img{
+    width:200px;
+    text-align: center;
+}
 

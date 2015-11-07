@@ -25,15 +25,15 @@ div.sticky-wrapper nav .menu-button p{display:inline-block;margin:0;line-height:
 div.sticky-wrapper nav .menu-button svg,div.sticky-wrapper nav .menu-button img{display:inline-block;float:left;margin-right:1em}
 div.sticky-wrapper.is-sticky nav{display:block;height:83px}
 .secondTransition,.firstTransition,img.firstTransition,img.secondTransition{-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0);-moz-opacity:0;-khtml-opacity:0;opacity:0}
-h2{margin-bottom:0;color:#bc1225;text-align:center}
+h2{margin-bottom:0;color:#eb212e;;text-align:center}
 h3{color:#bc1225}
 p{text-align:center}
-p.content_description{margin-bottom:3em;text-align:center;line-height:130%;font-size:1.2em}
+p.content_description{margin-bottom:3em;text-align:center;line-height:130%;font-size:1.2em;}
 section{padding:5em;overflow:hidden;position:relative;background-position:center center;background-repeat:no-repeat;background-attachment:fixed;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover}
 section:first-child{padding-top:3em}
 section .container{height:100%}
 .pictures-gallery .item{margin:0.5em;
-                        margin-left:4.3em;
+                        margin-left:20px;
                         margin-right:20px}
 .pictures-gallery .item div.img{height:200px;width:200px;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;display:block;background-size:auto 250px;background-repeat:no-repeat;background-position:center center}
 
@@ -73,9 +73,16 @@ section.content_middle_picture p{font-family:"Dosis",sans-serif;font-size:1.2em;
 section.content_middle_picture img{height:auto;width:300px;position:relative;margin-bottom:0}
 
 
-section.gallery_of_pictures #pictures-gallery{margin-top:3em}
-section.gallery_of_pictures #pictures-gallery div.img{-moz-transition:all 1s ease-in-out;-ms-transition:all 1s ease-in-out;-o-transition:all 1s ease-in-out;-webkit-transition:all 1s ease-in-out;transition:all 1s ease-in-out}
-section.gallery_of_pictures #pictures-gallery div.img:hover{-moz-transform:scale(0.8);-ms-transform:scale(0.8);-o-transform:scale(0.8);-webkit-transform:scale(0.8);transform:scale(0.8)}section.text_and_dates{background-image:url("../images/general/BackLockedScreen2.jpg")}section.text_and_dates p{margin-bottom:5%}section.text_and_dates ul li{text-align:center;margin-bottom:2%}section.text_and_dates ul li p{margin:0}section.text_and_dates ul li small{color:#bc1225}section.newsletter{padding-bottom:0}section.newsletter,footer{min-height:0;max-height:none;height:27em;background-color:#bc1225;color:#fff}section.newsletter h2,footer h2{color:#fff}section.newsletter p,footer p{color:#fff;margin-bottom:4em}section.newsletter .newsletter-form,footer .newsletter-form{width:19.9em;position:relative;margin:0 auto}section.newsletter .newsletter-form input,footer .newsletter-form input{border:0;padding:1em;font-size:1.2em;height:3em;padding-left:1em}section.newsletter .newsletter-form input#email,footer .newsletter-form input#email{display:inline-block;border-radius:0.4em 0 0 0.4em;-moz-border-radius:15px;-webkit-border-radius:15px;border-radius:15px;float:left}section.newsletter .newsletter-form input#submit,footer .newsletter-form input#submit{border-radius:0 0.4em 0.4em 0;line-height:0em;display:block;top:0px;right:0px;position:absolute;padding-right:1em;background-color:#fff}footer{background-color:#bc1225;height:auto;padding-top:5em;padding-bottom:2em}footer .container{padding-top:0;background-color:transparent}footer p{margin:4em;line-height:5em;text-align:left;margin-bottom:1em}footer ul{margin:0 auto;display:table}footer ul li{display:inline-block;list-style:none;margin-right:3em}footer ul li svg,footer ul li img.icone{width:67px;text-decoration:none;fill:#fff}footer ul li:last-child{margin-right:0}footer ul svg:hover,footer ul img.icone{-webkit-animation:pulse 0.7s;animation:pulse 0.7s}section.counters p{margin-bottom:1em}section.counters svg,section.counters img.icone{margin-top:5em;width:60px;height:60px}section.counters h3{text-align:center}section.pricing_table{padding-bottom:1em}section.pricing_table ul.table1,section.pricing_table ul.table2,section.pricing_table ul.table3{
+section.gallery_of_pictures #pictures-gallery{
+    margin-top:3em;}
+section.gallery_of_pictures #pictures-gallery div.img{
+    -moz-transition:all 1s ease-in-out;-ms-transition:all 1s ease-in-out;-o-transition:all 1s ease-in-out;-webkit-transition:all 1s ease-in-out;transition:all 1s ease-in-out;margin-left: 3.5em}
+section.gallery_of_pictures #pictures-gallery div.img:hover{-moz-transform:scale(0.8);-ms-transform:scale(0.8);-o-transform:scale(0.8);-webkit-transform:scale(0.8);transform:scale(0.8)}
+
+
+
+
+section.text_and_dates{background-image:url("../images/general/BackLockedScreen2.jpg")}section.text_and_dates p{margin-bottom:5%}section.text_and_dates ul li{text-align:center;margin-bottom:2%}section.text_and_dates ul li p{margin:0}section.text_and_dates ul li small{color:#bc1225}section.newsletter{padding-bottom:0}section.newsletter,footer{min-height:0;max-height:none;height:27em;background-color:#bc1225;color:#fff}section.newsletter h2,footer h2{color:#fff}section.newsletter p,footer p{color:#fff;margin-bottom:4em}section.newsletter .newsletter-form,footer .newsletter-form{width:19.9em;position:relative;margin:0 auto}section.newsletter .newsletter-form input,footer .newsletter-form input{border:0;padding:1em;font-size:1.2em;height:3em;padding-left:1em}section.newsletter .newsletter-form input#email,footer .newsletter-form input#email{display:inline-block;border-radius:0.4em 0 0 0.4em;-moz-border-radius:15px;-webkit-border-radius:15px;border-radius:15px;float:left}section.newsletter .newsletter-form input#submit,footer .newsletter-form input#submit{border-radius:0 0.4em 0.4em 0;line-height:0em;display:block;top:0px;right:0px;position:absolute;padding-right:1em;background-color:#fff}footer{background-color:#bc1225;height:auto;padding-top:5em;padding-bottom:2em}footer .container{padding-top:0;background-color:transparent}footer p{margin:4em;line-height:5em;text-align:left;margin-bottom:1em}footer ul{margin:0 auto;display:table}footer ul li{display:inline-block;list-style:none;margin-right:3em}footer ul li svg,footer ul li img.icone{width:67px;text-decoration:none;fill:#fff}footer ul li:last-child{margin-right:0}footer ul svg:hover,footer ul img.icone{-webkit-animation:pulse 0.7s;animation:pulse 0.7s}section.counters p{margin-bottom:1em}section.counters svg,section.counters img.icone{margin-top:5em;width:60px;height:60px}section.counters h3{text-align:center}section.pricing_table{padding-bottom:1em}section.pricing_table ul.table1,section.pricing_table ul.table2,section.pricing_table ul.table3{
     border:2px solid #bc1225;
     width:100%;
     height:auto;
